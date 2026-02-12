@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <title>개인정보처리방침 | PetHealth+</title>
+  <meta name="description" content="PetHealth+ 개인정보처리방침" />
+
+  <style>
+    :root{
+      --navy:#0B3041;
+      --gold:#8D6F4B;
+      --bg:#F7F8FA;
+      --card:#FFFFFF;
+      --text:#111827;
+      --muted:#6B7280;
+      --line:#E5E7EB;
+      --soft:#F3F4F6;
+      --radius:16px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR",Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      line-height:1.7;
+    }
+    a{color:var(--navy); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{
+      max-width:920px;
+      margin:0 auto;
+      padding:28px 18px 56px;
+    }
+    .topbar{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom:14px;
+    }
+    .brand{
+      display:flex; flex-direction:column; gap:2px;
+    }
+    .brand .kicker{
+      font-size:12px;
+      color:var(--muted);
+      letter-spacing:0.08em;
+      text-transform:uppercase;
+    }
+    .brand h1{
+      font-size:22px;
+      line-height:1.25;
+      margin:0;
+      color:var(--navy);
+      letter-spacing:-0.02em;
+    }
+    .meta{
+      margin-top:6px;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .actions{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+    .btn{
+      appearance:none;
+      border:1px solid var(--line);
+      background:var(--card);
+      padding:10px 12px;
+      border-radius:999px;
+      font-size:13px;
+      color:var(--text);
+      cursor:pointer;
+    }
+    .btn.primary{
+      border-color:transparent;
+      background:var(--navy);
+      color:#fff;
+    }
+    .btn:active{transform:translateY(1px)}
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:22px;
+      box-shadow:0 10px 30px rgba(0,0,0,.04);
+    }
+    h2{
+      margin:18px 0 10px;
+      font-size:16px;
+      color:var(--navy);
+      letter-spacing:-0.01em;
+    }
+    h3{
+      margin:14px 0 8px;
+      font-size:14px;
+      color:var(--text);
+    }
+    p{margin:8px 0}
+    ul{margin:8px 0 8px 18px; padding:0}
+    li{margin:6px 0}
+    .divider{
+      height:1px;
+      background:var(--line);
+      margin:18px 0;
+    }
+    .note{
+      background:rgba(141,111,75,.08);
+      border:1px solid rgba(141,111,75,.18);
+      padding:12px 14px;
+      border-radius:12px;
+      color:#374151;
+      font-size:13px;
+      margin-top:12px;
+    }
+    table{
+      width:100%;
+      border-collapse:separate;
+      border-spacing:0;
+      overflow:hidden;
+      border-radius:12px;
+      border:1px solid var(--line);
+      background:#fff;
+      margin-top:10px;
+    }
+    th,td{
+      text-align:left;
+      padding:12px 12px;
+      border-bottom:1px solid var(--line);
+      vertical-align:top;
+      font-size:13px;
+    }
+    th{
+      background:var(--soft);
+      color:#374151;
+      font-weight:700;
+      white-space:nowrap;
+    }
+    tr:last-child td{border-bottom:none}
+    .footer{
+      margin-top:14px;
+      font-size:12px;
+      color:var(--muted);
+      text-align:left;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:rgba(11,48,65,.06);
+      color:var(--navy);
+      font-size:12px;
+      font-weight:600;
+      margin-top:8px;
+    }
+    .toc{
+      margin:10px 0 0;
+      padding:12px 14px;
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:12px;
+      font-size:13px;
+    }
+    .toc a{color:var(--navy)}
+    .toc ul{margin:8px 0 0 18px}
+
+    @media (max-width:540px){
+      .card{padding:18px}
+      .brand h1{font-size:20px}
+      .actions{justify-content:flex-start}
+    }
+
+    @media print{
+      body{background:#fff}
+      .wrap{padding:0}
+      .card{box-shadow:none}
+      .actions{display:none}
+      a{text-decoration:underline}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="kicker">Plus Lab Korea Co., Ltd.</div>
+        <h1>개인정보처리방침 (PetHealth+)</h1>
+        <div class="meta">최종 수정일: 2026-02-12 · 운영자: Plus Lab Korea Co., Ltd. · 서비스명: PetHealth+</div>
+        <div class="pill">문의: support@pethealth.plus (또는 앱 내 '문의하기')</div>
+      </div>
+
+      <div class="actions">
+        <button class="btn" onclick="window.print()">인쇄</button>
+        <button class="btn primary" onclick="navigator.clipboard && navigator.clipboard.writeText(location.href)">URL 복사</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <p>
+        Plus Lab Korea Co., Ltd.(이하 "회사")가 운영하는 PetHealth+(이하 "서비스")는 「개인정보 보호법」 등 관련 법령을 준수하며,
+        이용자의 개인정보를 보호하기 위해 아래와 같이 개인정보처리방침을 수립·공개합니다.
+      </p>
+
+      <div class="note">
+        <b>중요 고지</b><br/>
+        1) 서비스는 반려동물 건강 기록 관리를 위해 이용자가 업로드한 영수증에서 <b>진료 항목 및 금액</b>을 추출합니다.<br/>
+        2) 이 과정에서 의도치 않게 포함될 수 있는 이용자의 개인정보(성명, 전화번호, 주소 등)는 <b>자동으로 가려지거나(마스킹) 저장하지 않습니다.</b><br/>
+        3) 파일은 <b>이용자 본인만 접근 가능한</b> 보안 클라우드 저장소에 보관됩니다.<br/>
+        4) 서비스는 반려동물 건강 데이터를 바탕으로 <b>AI 건강 분석</b> 기능을 제공하며, 이 과정에서 외부 AI 서비스(Google Gemini)에 데이터가 전송될 수 있습니다.
+      </div>
+
+      <div class="toc" aria-label="목차">
+        <b>목차</b>
+        <ul>
+          <li><a href="#sec1">1. 수집하는 개인정보 항목</a></li>
+          <li><a href="#sec2">2. 개인정보의 이용 목적</a></li>
+          <li><a href="#sec3">3. 개인정보의 보관 및 보호</a></li>
+          <li><a href="#sec4">4. 통계 활용</a></li>
+          <li><a href="#sec5">5. 개인정보 처리의 위탁 및 국외 이전</a></li>
+          <li><a href="#sec6">6. 보유 및 이용 기간</a></li>
+          <li><a href="#sec7">7. 이용자의 권리 및 삭제</a></li>
+          <li><a href="#sec8">8. 개인정보 보호책임자 및 문의처</a></li>
+        </ul>
+      </div>
+
+      <div class="divider"></div>
+
+      <h2 id="sec1">1. 수집하는 개인정보 항목</h2>
+      <p>서비스는 기능 제공을 위해 아래 정보를 수집·이용합니다.</p>
+
+      <h3>(1) 계정 정보</h3>
+      <ul>
+        <li><b>서비스 이용 식별자</b>: 서비스 이용을 위한 고유 식별값</li>
+        <li><b>로그인 정보</b>: Apple, Google, 카카오 로그인 시 제공되는 이메일, 이름/닉네임</li>
+        <li><b>구독 정보</b>: 구독 상태(Free/Pro), 구독 기간</li>
+      </ul>
+
+      <h3>(2) 기기 및 이용 정보</h3>
+      <ul>
+        <li>앱 버전, OS 정보, 접속 일시 등 서비스 품질 개선을 위한 최소 로그</li>
+      </ul>
+
+      <h3>(3) 반려동물 및 건강 기록</h3>
+      <ul>
+        <li><b>반려동물 프로필</b>: 이름, 종, 품종, 생일, 체중, 성별, 중성화 여부, 알러지 등</li>
+        <li><b>진료 기록</b>: 병원명, 방문일자, 결제금액, 진료 항목명 및 금액, 진료 분류 등</li>
+        <li><b>예방 일정</b>: 일정 제목, 종류, 날짜, 알림 설정, 메모 등</li>
+        <li class="note" style="margin-left:0; list-style:none;">
+          ※ 반려동물 정보 자체는 원칙적으로 개인정보가 아니나, 계정 정보와 결합되어 개인을 식별할 수 있는 경우 개인정보에 준하여 보호합니다.
+        </li>
+      </ul>
+
+      <h3>(4) 업로드 파일</h3>
+      <ul>
+        <li><b>영수증 이미지</b>: 개인정보는 자동으로 가려진(마스킹) 후 보관됩니다.</li>
+        <li><b>서류(PDF/이미지)</b>: 검사결과지, 접종증명서, 진단서 등 이용자가 직접 업로드한 문서</li>
+      </ul>
+
+      <h3>(5) 보험청구 관련 정보</h3>
+      <ul>
+        <li>청구일자, 청구 기간, 청구 총액, 첨부 서류 목록 등</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec2">2. 개인정보의 이용 목적</h2>
+      <ul>
+        <li>반려동물 건강 기록의 저장 및 관리</li>
+        <li>영수증에서 진료 항목·금액 추출을 통한 기록 자동화</li>
+        <li>AI 건강 분석 및 건강 가이드 제공</li>
+        <li>예방접종·건강검진 일정 관리 및 알림</li>
+        <li>보험청구 자료 생성 및 관리</li>
+        <li>데이터 백업·복구 및 계정 전환 처리</li>
+        <li>구독 상태 관리 및 기능 제공</li>
+        <li>서비스 장애 분석 및 개선</li>
+      </ul>
+
+      <h3>마케팅 관련</h3>
+      <ul>
+        <li>회사는 이용자의 개인정보를 <b>별도 동의 없이</b> 마케팅 목적으로 이용하지 않습니다.</li>
+        <li>향후 마케팅 목적의 이용이 필요한 경우 관련 법령에 따라 <b>사전 동의</b>를 받습니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec3">3. 개인정보의 보관 및 보호</h2>
+
+      <h3>(1) 최소 수집 원칙</h3>
+      <ul>
+        <li>서비스 제공에 필요한 최소한의 정보만 수집합니다.</li>
+        <li>주민등록번호 등 민감한 식별정보는 수집하지 않습니다.</li>
+      </ul>
+
+      <h3>(2) 영수증 개인정보 보호</h3>
+      <ul>
+        <li>영수증에 포함된 개인정보(성명, 전화번호, 주소 등)는 자동으로 가려지거나 저장하지 않습니다.</li>
+        <li>진료 항목·금액 등 서비스에 필요한 정보만 추출합니다.</li>
+      </ul>
+
+      <h3>(3) 저장 및 접근 보호</h3>
+      <ul>
+        <li>파일과 데이터는 보안이 적용된 클라우드 환경에 저장되며, 인증된 이용자 본인만 접근할 수 있습니다.</li>
+        <li>접근 권한 관리, 전송 구간 보호 등 합리적인 보안 조치를 적용합니다.</li>
+        <li>삭제된 데이터는 일정 기간 후 완전히 삭제됩니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec4">4. 통계 활용</h2>
+      <ul>
+        <li>서비스 개선을 위해 이용 통계(기능 사용량, 오류 빈도 등)를 분석할 수 있습니다.</li>
+        <li>통계는 개인을 식별할 수 없는 형태로 활용합니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec5">5. 개인정보 처리의 위탁 및 국외 이전</h2>
+      <p>
+        서비스 제공을 위해 일부 업무를 외부 업체에 위탁하거나, 국외 클라우드 인프라를 이용합니다.
+        이 과정에서 개인정보가 국외로 이전될 수 있습니다.
+      </p>
+
+      <table aria-label="개인정보 처리 위탁 및 국외 이전 현황">
+        <thead>
+          <tr>
+            <th>수탁자</th>
+            <th>업무 내용</th>
+            <th>이전 항목</th>
+            <th>이전 국가</th>
+            <th>보유 기간</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Google (Firebase / Google Cloud)</td>
+            <td>사용자 인증, 파일 저장, 서비스 인프라</td>
+            <td>식별자, 로그인 정보, 업로드 파일, 이용 로그</td>
+            <td>미국 등</td>
+            <td>서비스 이용 기간 또는 삭제 요청 시까지</td>
+          </tr>
+          <tr>
+            <td>Google (Gemini AI)</td>
+            <td>반려동물 건강 AI 분석</td>
+            <td>반려동물 프로필, 진료 이력 요약, 예방일정 요약</td>
+            <td>미국 등</td>
+            <td>분석 완료 즉시 (별도 저장 없음)</td>
+          </tr>
+          <tr>
+            <td>Render</td>
+            <td>서버 호스팅 및 데이터베이스 운영</td>
+            <td>서비스 이용 데이터 전반</td>
+            <td>미국 등</td>
+            <td>서비스 이용 기간 또는 삭제 요청 시까지</td>
+          </tr>
+          <tr>
+            <td>Kakao</td>
+            <td>카카오 로그인 인증</td>
+            <td>식별자, 이메일, 닉네임</td>
+            <td>대한민국</td>
+            <td>서비스 이용 기간 또는 삭제 요청 시까지</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="note">
+        <b>국외 이전 관련 안내</b><br/>
+        이용자는 개인정보의 국외 이전에 동의하지 않을 권리가 있습니다. 다만, 동의 거부 시 파일 저장, 영수증 분석, AI 건강 분석 등 일부 기능 이용이 제한될 수 있습니다.<br/>
+        관련 문의는 아래 문의처로 연락해 주세요.
+      </div>
+
+      <div class="divider"></div>
+
+      <h2 id="sec6">6. 보유 및 이용 기간</h2>
+      <ul>
+        <li>개인정보는 <b>수집·이용 목적 달성 시까지</b> 보유합니다.</li>
+        <li>이용자가 데이터를 삭제하거나 탈퇴를 요청하면, 법령상 보관 의무가 없는 한 지체 없이 삭제합니다.</li>
+        <li>관련 법령에 따라 보관이 필요한 경우 해당 기간 동안 분리 보관 후 삭제합니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec7">7. 이용자의 권리 및 삭제</h2>
+      <ul>
+        <li>이용자는 앱 내에서 본인의 데이터를 조회·수정·삭제할 수 있으며, 탈퇴를 요청할 수 있습니다.</li>
+        <li>삭제 요청 시 관련 기록 및 파일은 복구 불가능한 방법으로 삭제됩니다.</li>
+        <li>다른 로그인 수단으로 전환하는 경우 데이터 유실 방지를 위한 계정 이전 절차가 진행될 수 있습니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec8">8. 개인정보 보호책임자 및 문의처</h2>
+      <ul>
+        <li><b>개인정보 보호책임자:</b> 강돈희 대표</li>
+        <li><b>소속:</b> Plus Lab Korea Co., Ltd.</li>
+        <li><b>문의:</b> <a href="mailto:support@pethealth.plus">support@pethealth.plus</a></li>
+        <li><b>앱 내 문의:</b> 설정 → 문의하기</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <div class="footer">
+        본 방침은 2026년 2월 12일부터 시행됩니다.<br/>
+        변경 사항이 있을 경우 앱 내 공지 또는 본 페이지를 통해 안내합니다.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
