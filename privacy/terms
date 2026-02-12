@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <title>이용약관 | PetHealth+</title>
+  <meta name="description" content="PetHealth+ 서비스 이용약관" />
+
+  <style>
+    :root{
+      --navy:#0B3041;
+      --gold:#8D6F4B;
+      --bg:#F7F8FA;
+      --card:#FFFFFF;
+      --text:#111827;
+      --muted:#6B7280;
+      --line:#E5E7EB;
+      --soft:#F3F4F6;
+      --radius:16px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR",Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      line-height:1.7;
+    }
+    a{color:var(--navy); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{
+      max-width:920px;
+      margin:0 auto;
+      padding:28px 18px 56px;
+    }
+    .topbar{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom:14px;
+    }
+    .brand{
+      display:flex; flex-direction:column; gap:2px;
+    }
+    .brand .kicker{
+      font-size:12px;
+      color:var(--muted);
+      letter-spacing:0.08em;
+      text-transform:uppercase;
+    }
+    .brand h1{
+      font-size:22px;
+      line-height:1.25;
+      margin:0;
+      color:var(--navy);
+      letter-spacing:-0.02em;
+    }
+    .meta{
+      margin-top:6px;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .actions{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+    .btn{
+      appearance:none;
+      border:1px solid var(--line);
+      background:var(--card);
+      padding:10px 12px;
+      border-radius:999px;
+      font-size:13px;
+      color:var(--text);
+      cursor:pointer;
+    }
+    .btn.primary{
+      border-color:transparent;
+      background:var(--navy);
+      color:#fff;
+    }
+    .btn:active{transform:translateY(1px)}
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:22px;
+      box-shadow:0 10px 30px rgba(0,0,0,.04);
+    }
+    h2{
+      margin:18px 0 10px;
+      font-size:16px;
+      color:var(--navy);
+      letter-spacing:-0.01em;
+    }
+    h3{
+      margin:14px 0 8px;
+      font-size:14px;
+      color:var(--text);
+    }
+    p{margin:8px 0}
+    ul{margin:8px 0 8px 18px; padding:0}
+    li{margin:6px 0}
+    .divider{
+      height:1px;
+      background:var(--line);
+      margin:18px 0;
+    }
+    .note{
+      background:rgba(141,111,75,.08);
+      border:1px solid rgba(141,111,75,.18);
+      padding:12px 14px;
+      border-radius:12px;
+      color:#374151;
+      font-size:13px;
+      margin-top:12px;
+    }
+    .footer{
+      margin-top:14px;
+      font-size:12px;
+      color:var(--muted);
+      text-align:left;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:rgba(11,48,65,.06);
+      color:var(--navy);
+      font-size:12px;
+      font-weight:600;
+      margin-top:8px;
+    }
+    .toc{
+      margin:10px 0 0;
+      padding:12px 14px;
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:12px;
+      font-size:13px;
+    }
+    .toc a{color:var(--navy)}
+    .toc ul{margin:8px 0 0 18px}
+
+    @media (max-width:540px){
+      .card{padding:18px}
+      .brand h1{font-size:20px}
+      .actions{justify-content:flex-start}
+    }
+
+    @media print{
+      body{background:#fff}
+      .wrap{padding:0}
+      .card{box-shadow:none}
+      .actions{display:none}
+      a{text-decoration:underline}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="kicker">Plus Lab Korea Co., Ltd.</div>
+        <h1>서비스 이용약관 (PetHealth+)</h1>
+        <div class="meta">최종 수정일: 2026-02-12 · 운영자: Plus Lab Korea Co., Ltd. · 서비스명: PetHealth+</div>
+        <div class="pill">문의: <a href="/cdn-cgi/l/email-protection#6a191f1a1a05181e2a1a061f19060b080105180f0b44090507"><span class="__cf_email__" data-cfemail="1d6e686d6d726f695d6d71686e717c7f76726f787c337e7270">[email&#160;protected]</span></a> (또는 앱 내 '문의하기')</div>
+      </div>
+
+      <div class="actions">
+        <button class="btn" onclick="window.print()">인쇄</button>
+        <button class="btn primary" onclick="navigator.clipboard && navigator.clipboard.writeText(location.href)">URL 복사</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <p>
+        본 약관은 Plus Lab Korea Co., Ltd.(이하 "회사")가 운영하는 PetHealth+(이하 "서비스")의 이용 조건 및 절차,
+        회사와 이용자 간의 권리·의무 및 책임 사항을 규정함을 목적으로 합니다.
+      </p>
+
+      <div class="toc" aria-label="목차">
+        <b>목차</b>
+        <ul>
+          <li><a href="#sec1">제1조 목적</a></li>
+          <li><a href="#sec2">제2조 용어의 정의</a></li>
+          <li><a href="#sec3">제3조 약관의 효력 및 변경</a></li>
+          <li><a href="#sec4">제4조 서비스의 제공</a></li>
+          <li><a href="#sec5">제5조 이용 계정</a></li>
+          <li><a href="#sec6">제6조 유료 서비스(구독)</a></li>
+          <li><a href="#sec7">제7조 이용자의 의무</a></li>
+          <li><a href="#sec8">제8조 회사의 의무</a></li>
+          <li><a href="#sec9">제9조 지식재산권</a></li>
+          <li><a href="#sec10">제10조 서비스 중단 및 변경</a></li>
+          <li><a href="#sec11">제11조 면책 및 책임 제한</a></li>
+          <li><a href="#sec12">제12조 이용 제한 및 해지</a></li>
+          <li><a href="#sec13">제13조 개인정보 보호</a></li>
+          <li><a href="#sec14">제14조 분쟁 해결</a></li>
+          <li><a href="#sec15">제15조 기타</a></li>
+        </ul>
+      </div>
+
+      <div class="divider"></div>
+
+      <h2 id="sec1">제1조 (목적)</h2>
+      <p>
+        본 약관은 회사가 제공하는 반려동물 건강 관리 서비스 "PetHealth+"의 이용과 관련하여
+        회사와 이용자 간의 권리, 의무 및 책임 사항, 기타 필요한 사항을 규정함을 목적으로 합니다.
+      </p>
+
+      <div class="divider"></div>
+
+      <h2 id="sec2">제2조 (용어의 정의)</h2>
+      <p>본 약관에서 사용하는 주요 용어의 정의는 다음과 같습니다.</p>
+      <ul>
+        <li><b>"서비스"</b>: 회사가 PetHealth+ 브랜드로 제공하는 모바일 애플리케이션 및 관련 웹 서비스 일체를 말합니다.</li>
+        <li><b>"이용자"</b>: 본 약관에 동의하고 서비스를 이용하는 자를 말합니다.</li>
+        <li><b>"계정"</b>: 서비스 이용을 위해 이용자에게 부여되는 고유 식별 수단(Apple, Google, 카카오 로그인 등)을 말합니다.</li>
+        <li><b>"유료 서비스"</b>: 서비스 내에서 별도의 결제를 통해 이용할 수 있는 구독 상품 및 부가 기능을 말합니다.</li>
+        <li><b>"콘텐츠"</b>: 이용자가 서비스에 업로드하거나 입력한 텍스트, 이미지, 파일 등 일체의 정보를 말합니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec3">제3조 (약관의 효력 및 변경)</h2>
+      <ul>
+        <li>본 약관은 서비스 화면에 게시하거나 기타의 방법으로 이용자에게 공지함으로써 효력이 발생합니다.</li>
+        <li>회사는 관련 법령에 위배되지 않는 범위에서 본 약관을 변경할 수 있으며, 변경 시 적용일 7일 전부터 서비스 내 공지합니다.</li>
+        <li>이용자가 변경된 약관에 동의하지 않는 경우, 서비스 이용을 중단하고 탈퇴할 수 있습니다. 변경된 약관의 효력 발생일 이후에도 서비스를 계속 이용하는 경우 변경된 약관에 동의한 것으로 봅니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec4">제4조 (서비스의 제공)</h2>
+      <p>회사는 다음과 같은 서비스를 제공합니다.</p>
+      <ul>
+        <li>반려동물 프로필 등록 및 건강 기록 관리</li>
+        <li>동물병원 영수증 촬영·업로드를 통한 진료 기록 자동 추출 및 저장</li>
+        <li>진료 기록 기반 AI 건강 분석 (AI 케어)</li>
+        <li>검사결과지, 접종증명서, 진단서 등 PDF/이미지 서류 보관</li>
+        <li>예방접종·건강검진 일정 관리 및 알림</li>
+        <li>보험청구 자료 생성 및 관리</li>
+        <li>기타 회사가 추가 개발하거나 제휴를 통해 제공하는 서비스</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec5">제5조 (이용 계정)</h2>
+      <ul>
+        <li>서비스 이용을 위해서는 Apple, Google, 카카오 등 소셜 로그인을 통한 계정 생성이 필요합니다.</li>
+        <li>이용자는 자신의 계정 정보를 안전하게 관리할 책임이 있으며, 제3자에게 계정을 양도하거나 공유할 수 없습니다.</li>
+        <li>계정 관련 문제가 발생한 경우, 이용자는 즉시 회사에 통보하여야 합니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec6">제6조 (유료 서비스 및 구독)</h2>
+
+      <h3>(1) 구독 상품</h3>
+      <ul>
+        <li>회사는 서비스의 일부 기능을 유료 구독(Pro) 형태로 제공할 수 있습니다.</li>
+        <li>유료 구독의 종류, 가격, 이용 기간 등 세부 내용은 서비스 내 구독 화면에 별도로 안내됩니다.</li>
+      </ul>
+
+      <h3>(2) 결제</h3>
+      <ul>
+        <li>유료 서비스의 결제는 Apple App Store의 인앱 결제(In-App Purchase)를 통해 이루어집니다.</li>
+        <li>결제 금액은 이용자의 Apple ID 계정에 등록된 결제 수단으로 청구됩니다.</li>
+      </ul>
+
+      <h3>(3) 자동 갱신</h3>
+      <ul>
+        <li>구독은 <b>자동 갱신</b>됩니다. 현재 구독 기간이 만료되기 최소 24시간 전에 자동 갱신을 해제하지 않으면, 동일한 가격과 기간으로 자동 결제됩니다.</li>
+        <li>자동 갱신 해제는 Apple 기기의 <b>설정 → [사용자 이름] → 구독</b>에서 관리할 수 있습니다.</li>
+      </ul>
+
+      <h3>(4) 무료 체험</h3>
+      <ul>
+        <li>회사가 무료 체험 기간을 제공하는 경우, 체험 기간 종료 후 자동으로 유료 구독으로 전환되며 요금이 청구됩니다.</li>
+        <li>무료 체험 기간 중 구독을 해지하면 요금이 부과되지 않습니다.</li>
+      </ul>
+
+      <h3>(5) 환불</h3>
+      <ul>
+        <li>인앱 결제를 통한 구독 환불은 Apple의 환불 정책에 따릅니다.</li>
+        <li>환불을 원하는 이용자는 Apple 고객 지원 또는 <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>을 통해 신청할 수 있습니다.</li>
+      </ul>
+
+      <div class="note">
+        <b>구독 관련 안내</b><br/>
+        · 구독 요금은 Apple App Store에서 안내하는 가격 기준이며, 국가/지역에 따라 다를 수 있습니다.<br/>
+        · 구독 해지 후에도 이미 결제된 기간까지는 서비스를 이용할 수 있습니다.<br/>
+        · 구독 해지: <b>설정 → [사용자 이름] → 구독 → PetHealth+ Pro → 구독 취소</b>
+      </div>
+
+      <div class="divider"></div>
+
+      <h2 id="sec7">제7조 (이용자의 의무)</h2>
+      <p>이용자는 다음 행위를 하여서는 안 됩니다.</p>
+      <ul>
+        <li>타인의 개인정보를 도용하거나 허위 정보를 등록하는 행위</li>
+        <li>서비스를 이용하여 법령 또는 공공질서, 미풍양속에 반하는 행위</li>
+        <li>서비스의 운영을 방해하거나 비정상적인 방법으로 서비스를 이용하는 행위</li>
+        <li>서비스를 통해 얻은 정보를 회사의 사전 승인 없이 상업적으로 이용하는 행위</li>
+        <li>서비스의 보안 시스템을 우회하거나 침해하는 행위</li>
+        <li>자동화된 수단(봇, 크롤러 등)을 이용하여 서비스에 접근하는 행위</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec8">제8조 (회사의 의무)</h2>
+      <ul>
+        <li>회사는 관련 법령과 본 약관을 준수하며, 지속적이고 안정적인 서비스를 제공하기 위해 노력합니다.</li>
+        <li>회사는 이용자의 개인정보를 보호하기 위해 개인정보처리방침을 수립하고 이를 준수합니다.</li>
+        <li>회사는 서비스 이용과 관련하여 이용자로부터 제기되는 의견이나 불만을 성실히 처리합니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec9">제9조 (지식재산권)</h2>
+      <ul>
+        <li>서비스에 포함된 소프트웨어, 디자인, 로고, 상표, 텍스트, 이미지 등 일체의 지식재산권은 회사에 귀속됩니다.</li>
+        <li>이용자가 서비스에 업로드한 콘텐츠(영수증, 진료 기록, 사진 등)에 대한 권리는 이용자에게 귀속됩니다.</li>
+        <li>회사는 이용자가 업로드한 콘텐츠를 서비스 제공 목적 범위 내에서만 이용하며, 이용자의 사전 동의 없이 외부에 공개하거나 상업적으로 활용하지 않습니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec10">제10조 (서비스 중단 및 변경)</h2>
+      <ul>
+        <li>회사는 시스템 점검, 설비 보수, 천재지변, 기타 불가항력적 사유로 서비스 제공을 일시적으로 중단할 수 있으며, 사전에 공지합니다. 다만, 긴급한 경우 사후에 공지할 수 있습니다.</li>
+        <li>회사는 서비스의 전부 또는 일부를 변경하거나 종료할 수 있으며, 이 경우 30일 전에 서비스 내 공지합니다.</li>
+        <li>서비스 종료 시 이용자는 본인의 데이터를 내보내기(백업)할 수 있는 기간을 제공받습니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec11">제11조 (면책 및 책임 제한)</h2>
+      <ul>
+        <li>회사는 이용자가 서비스에 입력·저장한 정보의 정확성이나 완전성을 보증하지 않습니다.</li>
+        <li>서비스에서 제공하는 AI 분석, 건강 정보 등은 <b>참고용 정보</b>이며, 수의학적 진단이나 처방을 대체하지 않습니다. 반려동물의 건강 문제는 반드시 수의사와 상담하시기 바랍니다.</li>
+        <li>회사는 이용자 간 또는 이용자와 제3자 간에 발생한 분쟁에 대해 관여하지 않으며 이에 대한 책임을 부담하지 않습니다.</li>
+        <li>회사는 천재지변, 전쟁, 정부의 조치, 통신사·플랫폼 장애 등 불가항력적 사유로 인한 서비스 장애에 대해 책임을 지지 않습니다.</li>
+        <li>무료로 제공되는 서비스에 대해서는 법령에 특별한 규정이 없는 한 책임을 부담하지 않습니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec12">제12조 (이용 제한 및 해지)</h2>
+      <ul>
+        <li>회사는 이용자가 본 약관을 위반하거나 서비스의 정상적인 운영을 방해하는 경우 사전 통보 후 서비스 이용을 제한하거나 계정을 해지할 수 있습니다. 다만, 긴급한 경우 사후에 통보할 수 있습니다.</li>
+        <li>이용자는 언제든지 서비스 내 설정을 통해 탈퇴(계정 삭제)를 요청할 수 있으며, 회사는 관련 법령에서 정한 경우를 제외하고 지체 없이 처리합니다.</li>
+        <li>탈퇴 시 이용자의 데이터는 복구가 불가능한 방법으로 파기됩니다. 다만, 관련 법령에 따라 일정 기간 보관이 필요한 정보는 해당 기간 동안 분리 보관 후 파기합니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec13">제13조 (개인정보 보호)</h2>
+      <ul>
+        <li>회사는 이용자의 개인정보를 보호하기 위해 「개인정보 보호법」 등 관련 법령을 준수하며, 별도의 <a href="privacy.html">개인정보처리방침</a>에 따라 개인정보를 처리합니다.</li>
+        <li>개인정보의 수집·이용 목적, 항목, 보유 기간 등 세부 내용은 개인정보처리방침을 참고하시기 바랍니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec14">제14조 (분쟁 해결)</h2>
+      <ul>
+        <li>본 약관의 해석 및 서비스 이용과 관련한 분쟁은 대한민국 법령을 준거법으로 합니다.</li>
+        <li>서비스 이용과 관련하여 회사와 이용자 간에 발생한 분쟁에 대해서는 회사의 본점 소재지를 관할하는 법원을 전속적 합의관할 법원으로 합니다.</li>
+        <li>이용자는 서비스 이용 중 발생한 불만이나 분쟁에 대해 회사 고객센터(<a href="/cdn-cgi/l/email-protection#ef9c9a9f9f809d9baf9f839a9c838e8d84809d8a8ec18c8082"><span class="__cf_email__" data-cfemail="aedddbdedec1dcdaeedec2dbddc2cfccc5c1dccbcf80cdc1c3">[email&#160;protected]</span></a>)로 문의할 수 있습니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <h2 id="sec15">제15조 (기타)</h2>
+      <ul>
+        <li>본 약관에서 정하지 아니한 사항과 본 약관의 해석에 관하여는 관련 법령 또는 상관례에 따릅니다.</li>
+        <li>본 약관의 일부 조항이 무효 또는 집행 불가능한 것으로 판명되더라도, 나머지 조항의 유효성에는 영향을 미치지 않습니다.</li>
+      </ul>
+
+      <div class="divider"></div>
+
+      <div class="footer">
+        본 약관은 2026년 2월 12일부터 시행됩니다.<br/>
+        변경 사항이 있을 경우 앱 내 공지 또는 본 페이지를 통해 안내합니다.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
