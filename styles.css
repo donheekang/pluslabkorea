@@ -34,25 +34,40 @@
 .pet-hero-crop{position:relative;aspect-ratio:1144 / 526;overflow:hidden;background:#f8f7f3}
 .screen .pet-hero-crop img{position:absolute;width:111.363636%;max-width:none;height:auto;left:-5.681818%;top:-24.334601%}
 
-/* Company philosophy */
-.about{padding:84px 0 76px;background:#25382f;color:#f5f3ed;scroll-margin-top:82px}
-.about .section-mark{gap:27px;margin-bottom:49px}
+/* Applied technology and company approach */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.about{padding:64px 0 55px;background:#25382f;color:#f5f3ed;scroll-margin-top:82px}
+.about .section-mark{gap:27px;margin-bottom:32px}
 .about .section-mark>span{color:#abb99f}
 .about .section-mark>p{font-family:var(--serif);font-size:30px;font-weight:400;letter-spacing:-.6px}
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px}
-.about-statement h2{font-size:clamp(36px,3.25vw,51px);font-weight:450;line-height:1.48;letter-spacing:-2px;word-break:keep-all}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:start}
+.about-statement h2{font-size:clamp(36px,3.1vw,49px);font-weight:450;line-height:1.4;letter-spacing:-1.9px;word-break:keep-all}
 .about-plus{display:inline-block;margin-left:9px;color:#b6c2a6;font-weight:300}
-.about-caption{margin-top:40px;font-size:9px;letter-spacing:1.8px;color:#abb99f}
-.about-content h3{font-size:25px;font-weight:450;line-height:1.65;letter-spacing:-.85px;word-break:keep-all}
-.about-content>p{max-width:520px;margin-top:23px;font-size:13px;line-height:1.95;letter-spacing:-.3px;color:#c2cbbf;word-break:keep-all}
-.about-questions{margin:30px 0 0}
-.about-questions>div{display:grid;grid-template-columns:102px 1fr;align-items:baseline;gap:20px;padding:17px 0;border-top:1px solid #ffffff24}
-.about-questions dt{font-size:10px;font-weight:400;color:#b4c0a9;line-height:1.8;letter-spacing:.1px}
-.about-questions dd{margin:0;font-size:13px;line-height:1.8;letter-spacing:-.25px;word-break:keep-all}
-.about-ownership{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:center;margin-top:58px;padding-top:36px;border-top:1px solid #ffffff2b}
-.about-ownership h3{font-size:25px;font-weight:450;letter-spacing:-.8px;line-height:1.6}
+.about-content .about-kicker{margin:4px 0 15px;font:9px ui-monospace,SFMono-Regular,monospace;letter-spacing:1px;color:#b4c0a9}
+.about-content h3{font-size:25px;font-weight:450;line-height:1.55;letter-spacing:-.85px;word-break:keep-all}
+.about-content>p{max-width:520px;margin-top:19px;font-size:13px;line-height:1.9;letter-spacing:-.3px;color:#c2cbbf;word-break:keep-all}
+.about-content>p+p{margin-top:9px}
+.capability-table{width:100%;table-layout:fixed;border-collapse:collapse;margin-top:28px;text-align:left}
+.capability-table thead th{padding:0 0 13px;border-bottom:1px solid #ffffff40;font-size:10px;font-weight:400;color:#abb99f;letter-spacing:.4px}
+.capability-table thead th:first-child{width:32%}
+.capability-table thead th:nth-child(2){width:48%}
+.capability-table thead th:last-child{width:20%}
+.capability-table tbody th,.capability-table td{padding:15px 20px 15px 0;border-bottom:1px solid #ffffff24;vertical-align:middle}
+.capability-table tbody th{font-size:14px;letter-spacing:-.25px;font-weight:450;text-align:left}
+.capability-table tbody th>div{display:inline-block;vertical-align:middle}
+.capability-number{display:inline-block;vertical-align:middle;margin-right:23px;color:#a8b69b;font:10px ui-monospace,monospace}
+.capability-source{display:block;font-size:11px;font-weight:400;color:#abb99f;line-height:1.8;margin-top:4px}
+.capability-table td strong{display:block;font-size:14px;font-weight:450;letter-spacing:-.3px;line-height:1.7;word-break:keep-all}
+.capability-table td>span{display:block;margin-top:4px;font-size:11px;color:#c2cbbf;line-height:1.8;letter-spacing:-.15px;word-break:keep-all}
+.capability-table td:last-child{padding-right:0}
+.capability-table a{display:flex;align-items:center;justify-content:space-between;gap:14px;font-size:13px;letter-spacing:-.25px;padding:13px 0}
+.capability-table a>span{font-size:19px;color:#abb99f;transition:transform .2s}
+.capability-table a:hover{color:#cfddba}
+.capability-table a:hover>span{transform:translate(2px,-2px)}
+.about-ownership{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:start;margin-top:29px}
+.about-ownership h3{font-size:24px;font-weight:450;letter-spacing:-.8px;line-height:1.6}
 .about-ownership p{font-size:12px;line-height:1.95;letter-spacing:-.25px;color:#c2cbbf;word-break:keep-all}
-@media(max-width:1150px){.about-grid,.about-ownership{gap:56px}.about-questions>div{grid-template-columns:85px 1fr;gap:15px}.about-questions dd{font-size:12px}.about-content h3{font-size:23px}.about-statement h2{font-size:36px;letter-spacing:-1.4px}}
-@media(min-width:721px) and (max-width:850px){.about-grid,.about-ownership{gap:40px}.about-statement h2{font-size:30px;letter-spacing:-1.2px}.about-content h3{font-size:21px}.about-content>p{font-size:12px}.about-questions>div{grid-template-columns:1fr;gap:4px;padding:13px 0}.about-ownership p br{display:none}}
-@media(max-width:720px){.about{padding:55px 0 51px;scroll-margin-top:70px}.about .section-mark{gap:17px;margin-bottom:31px}.about .section-mark>p{font-size:28px}.about-grid{display:block}.about-statement h2{font-size:clamp(30px,7.9vw,43px);letter-spacing:-1.4px;line-height:1.5}.about-caption{margin-top:24px;font-size:8px;letter-spacing:1.5px}.about-content{margin-top:43px}.about-content h3{font-size:23px;line-height:1.6}.about-content>p{max-width:460px;font-size:13px;margin-top:19px}.about-questions{margin-top:27px}.about-questions>div{grid-template-columns:85px 1fr;gap:18px;padding:16px 0}.about-questions dt{font-size:10px}.about-questions dd{font-size:12px}.about-ownership{display:block;margin-top:30px;padding-top:29px}.about-ownership h3{font-size:24px}.about-ownership p{margin-top:19px;font-size:12px;max-width:440px}.about-ownership p br{display:none}}
-@media(max-width:390px){.about-questions>div{grid-template-columns:1fr;gap:5px}.about-statement h2{font-size:30px}}
+@media(max-width:1150px){.about-grid,.about-ownership{gap:56px}.about-content h3{font-size:23px}.about-statement h2{font-size:36px;letter-spacing:-1.4px}.capability-number{margin-right:13px}.capability-table td strong{font-size:13px}.capability-table td>span{font-size:10px}.capability-source{font-size:10px}.capability-table a{font-size:12px}}
+@media(min-width:721px) and (max-width:850px){.about-grid,.about-ownership{gap:40px}.about-statement h2{font-size:32px;letter-spacing:-1.2px}.about-content h3{font-size:21px}.about-content>p{font-size:12px}.about-content .about-kicker{font-size:8px;letter-spacing:.5px}.capability-table thead th:first-child{width:30%}.capability-table thead th:nth-child(2){width:49%}.capability-table thead th:last-child{width:21%}.capability-number{display:none}.capability-table td strong{font-size:12px}.capability-table tbody th{font-size:13px}.capability-table a{font-size:11px}.about-ownership p br{display:none}}
+@media(max-width:720px){.about{padding:53px 0 49px;scroll-margin-top:70px}.about .section-mark{gap:17px;margin-bottom:31px}.about .section-mark>p{font-size:27px}.about-grid{display:block}.about-statement h2{font-size:clamp(31px,8vw,43px);letter-spacing:-1.4px;line-height:1.42}.about-content{margin-top:31px}.about-content h3{font-size:23px;line-height:1.6}.about-content>p{max-width:460px;font-size:13px;margin-top:16px}.about-content .about-kicker{font-size:8px;letter-spacing:.9px;margin:0 0 13px}.capability-table{display:block;margin-top:31px}.capability-table thead{display:none}.capability-table tbody{display:block}.capability-table tr{display:grid;grid-template-columns:1fr auto;gap:14px 18px;padding:24px 0;border-top:1px solid #ffffff24}.capability-table tr:last-child{border-bottom:1px solid #ffffff24}.capability-table tbody th,.capability-table td{display:block;padding:0;border:0}.capability-table tbody th{grid-column:1;font-size:14px}.capability-number{display:none}.capability-source{font-size:10px}.capability-table td:nth-child(2){grid-column:1 / -1;grid-row:2}.capability-table td:last-child{grid-column:2;grid-row:1;align-self:start}.capability-table td strong{font-size:13px}.capability-table td>span{font-size:11px;max-width:440px}.capability-table a{font-size:11px;gap:14px;padding:0;min-height:44px}.capability-table a>span{font-size:17px}.about-ownership{display:block;margin-top:29px}.about-ownership h3{font-size:23px}.about-ownership p{margin-top:17px;font-size:12px;max-width:440px}.about-ownership p br{display:none}}
+@media(max-width:390px){.about .section-mark>p{font-size:24px}.about-statement h2{font-size:31px}.capability-table tr{column-gap:10px}.capability-table a{font-size:10px;gap:8px}.capability-source{font-size:9px}}
