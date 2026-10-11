@@ -1,0 +1,81 @@
+/* Company contact and footer: shared columns, grouped details. */
+.contact--company {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 64px;
+  padding-block: 72px 64px;
+}
+.contact--company .contact-actions { min-width: 0; padding-top: 0; }
+.contact--company .email-link { font-size: clamp(23px, 2.1vw, 31px); }
+.contact--company .copy-status:empty { min-height: 0; margin-top: 0; }
+.contact--company .support-link { margin-top: 24px; }
+.footer--company { background: var(--paper); padding: 40px 0 24px; }
+.footer--company .footer-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 64px;
+}
+.footer--company .brand { justify-self: start; }
+.footer--company .brand-name { font-size: 21px; }
+.footer--company .brand-name > span { display: block; font-size: 8px; }
+.footer--company .company-info {
+  display: block;
+  order: initial;
+  width: auto;
+  max-width: none;
+  font-size: 12px;
+  line-height: 1.8;
+}
+.footer--company .company-name { color: var(--ink); font-size: 13px; font-weight: 500; }
+.footer--company .company-meta { display: flex; flex-wrap: wrap; gap: 4px 18px; margin-top: 7px; }
+.footer--company .company-meta > span { white-space: nowrap; }
+.footer--company .footer-bottom {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 64px;
+  margin-top: 32px;
+  padding-top: 16px;
+  font-size: 11px;
+}
+.footer--company .footer-bottom nav {
+  order: initial;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 28px;
+  font-size: 12px;
+}
+.footer--company .footer-bottom nav > a { display: inline-flex; align-items: center; min-height: 44px; }
+.footer--company .back-top { margin-left: 0; color: var(--ink); font-size: 12px; gap: 12px; }
+.footer--company .back-top > span { font-size: 20px; }
+@media (max-width: 1150px) {
+  .contact--company, .footer--company .footer-top, .footer--company .footer-bottom { column-gap: 40px; }
+}
+@media (max-width: 960px) {
+  .contact--company, .footer--company .footer-top, .footer--company .footer-bottom { column-gap: 32px; }
+  .contact--company .email-link { font-size: 23px; }
+  .footer--company .company-meta { gap: 3px 12px; }
+}
+@media (max-width: 720px) {
+  .contact--company { display: block; padding-block: 48px; }
+  .contact--company .contact-title h2 { font-size: clamp(42px, 10vw, 53px); }
+  .contact--company .contact-actions { padding-top: 30px; }
+  .contact--company .email-link { font-size: clamp(19px, 5.4vw, 31px); gap: 10px; }
+  .contact--company .email-link > span { font-size: 24px; flex-shrink: 0; }
+  .contact--company .support-link { margin-top: 20px; column-gap: 12px; font-size: 12px; }
+  .footer--company { padding: 30px 0 18px; }
+  .footer--company .footer-top { grid-template-columns: 1fr; gap: 22px; }
+  .footer--company .company-name { font-size: 13px; }
+  .footer--company .company-meta { font-size: 11px; margin-top: 5px; }
+  .footer--company .footer-bottom { grid-template-columns: 1fr auto; gap: 12px; margin-top: 24px; padding-top: 12px; font-size: 9px; }
+  .footer--company .footer-bottom nav { font-size: 10px; gap: 16px; }
+  .footer--company .back-top { font-size: 10px; gap: 7px; }
+  .footer--company .back-top > span { font-size: 17px; }
+}
+@media (max-width: 359px) {
+  .footer--company .footer-bottom { grid-template-columns: 1fr; gap: 0; }
+  .footer--company .footer-bottom nav { justify-content: space-between; }
+}
